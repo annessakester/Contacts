@@ -43,6 +43,32 @@
     <br>
     <br>
     <br>
+    <form method="post" action="cf_response_page.PHP">
+        <fieldset>
+            <legend>Bowling Lesson signup</legend>
+            <label for="name">Name</label>
+            <input name="Name" placeholder="First and Last" type="text" required>
+            <select name="Level 1">
+                <option value="New">Bowling Level</option>
+                <option value="1">Level 1(New)</option>
+                <option value="2">Level 2</option>
+                <option value="3">Level 3</option>
+            </select>
+        <p>
+            <legend>Gender</legend>    
+        </p>
+        <p>
+            <input type="radio" name="Gender" id="male" value="male">
+                <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="female">
+                <label for="female">Female</label>
+        </p>
+            <p>
+        <label for="Comments">Comments:</label><textarea name="Comments"></textarea>
+            <input type="submit" value="Join Today!">
+            </p>
+        </fieldset>
+    </form>
     <footer> 
         Copyright 2024</footer>
     
